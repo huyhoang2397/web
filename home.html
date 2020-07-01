@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trang chủ</title>
+</head>
+<body>
+    <h1>Đây là tiêu đề trang chủ</h1>
+    <h2>Tác giả: áddsa</h2>
+    <h3>Ngày xuất bản: 29/06/2020</h3>
+    <h4>Mô tả: thẻ tiêu đề h1-h6</h4>
+    <p>thẻ đoạn văn
+        kadsjhjkdajkshasdsadassssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssjkhjk
+        sdagkkkkkkkkkkkkkkkkkkkkkkkad<br/>thẻ xuống dòng ádhuasdasd</p>
+    <p><b>thẻ làm đậm chữ</b>ádasdasdasd</p>
+    <p><i>thẻ in nghiêng</i></p>
+    <p><u>thẻ gạch chân</u></p>
+    <a href="http://bongda.com.vn">liên kết link</a>
+    <p><a href ="http://bongda.com.vn" target="_blank">Mở sang 1 tab mới bằng cú pháp: target="_blank"</a></p>
+    <code>
+        #include < stdio.h >
+        int main(){
+        printf("%d",n);
+        }
+    </code>
+    <p>
+        cú pháp: < img src ="tên thư mục/tên ảnh">
+    </p>
+    <figure><!--Tạo khung ảnh-->
+        <img src="imgs/zzzzz-1817.jpg">
+        <figcaption>Tiêu đề ảnh</figcaption>
+    </figure>
+    <ol><!--hiện thị danh sách và tự đánh số thứ tự-->
+        <li> Cơm rang dưa</li>
+        <li> cơm rang cải bò</li>
+        <li> adsahhjjjd</li>
+    </ol>
+    <ul><!--Danh sách và đánh thứ tự bằng dấu chấm ở đầu-->
+        <li>cafe</li>
+        <li>câco</li>
+        <li>sinh tố</li>
+    </ul>
+    <dl> <!-- data list: menu,chia theo nhóm-->
+        <dt>Đồ ăn</dt> <!--Tên nhãn-->
+        <dd>Bào ngư</dd> <!--liệt kê danh sách-->
+        <dd>Cơm</dd>
+        <dt>Đồ uống</dt>
+        <dd>Nước khoáng</dd>
+        <dd>nước mía</dd>
+    </dl>
+    <table border="1"> <!--border ="Độ lớn viền khung" kẻ khung-->
+        <!--Dùng để liệt kê dữ liệu dạng bảng-->
+        <thead>
+            <!--Chứa nhãn đầu danh sách-->
+            <th>MSSV</th> <!--Nhãn, đại diện cho tên cột-->
+            <th>Tên</th>
+            <th>Điểm thi</th>
+        </thead>
+        <tbody>
+            <!--Dữ liệu của bảng-->
+            <tr>
+                <!--hàng-->
+                <td>001</td>
+                <td>Lê thị na</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <!--hàng-->
+                <td>002</td>
+                <td>Lê Anh</td>
+                <td rowspan="2">8</td> <!--rowspan thêm vào ô bên dưới,kéo dài xuống hàng dưới,vd rowspan="2" có 2 cột.-->
+            </tr>
+            <tr>
+                <!--hàng-->
+                <td>003</td>
+                <td>Lê Anh</td>
+            </tr>
+            <tr>
+                <!--hàng-->
+                <td>003</td>
+                <td colspan="2">Lê Anh</td> <!--Kéo dài ô thêm 1 cột-->
+            </tr>
+
+        </tbody>
+    </table>
+    <tfood>
+        Có tất cả 50 sinh viên
+    </tfood>
+    <p>
+        <audio controls>
+            <source src="audio/y2mate.com%20-%20LIÊN%20KHÚC%20NHẠC%20TRUNG%20QUỐC%20HAY%20NHẤT%20♪%20_%20%20NHỮNG%20BÀI%20HÁT%20TRUNG%20QUỐC%20HAY%20NHẤT%20TRONG%20TIKTOK%20♪_D_GrsC99o50_320kbps.mp3">
+        </audio>
+        <!--source nguồn. controls bảng điều khiển, autoplay tự động hát -->
+    </p>
+    <p>
+        <video controls width="500" height="400"> <!--width chiều rộng, height chiều dài, dùng để tạo khung-->
+            <source src="Video/Hoa%20Tay%20Tu%20-%20Chau%20Tham.mp4">
+        </video>
+    </p>
+    <p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/kjYW63CVbsE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </p><!--iframe tạo khung nhìn, xem web khác  bên trong web của mình-->
+    <p>
+        <iframe width="560" height="315" src="https://www.24h.com.vn" ></iframe>
+    </p>
+
+</body>
+</html>
